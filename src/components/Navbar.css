@@ -1,0 +1,139 @@
+.mid {
+    background-color: #800000;
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+}
+
+/*navigation kısmındaki başlıkların küçük arkaplan rengi*/
+.navbar {
+
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+
+    padding-inline-end: 40px;
+}
+
+.navbar li {
+
+    list-style: none;
+    display: inline-block;
+
+    margin: auto;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: rgb(233, 233, 243);
+    font-size: 18px;
+    padding: 8px 20px;
+}
+
+.navbar li a:hover {
+    color: #0093ff;
+    border: rgb(93, 108, 194);
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+/*tıklandığında çevresini kaplayan kutu rengi*/
+.navbar li a:active {
+    background-color: #863545;
+    border-radius: 5px;
+}
+
+.right {
+    background-color: #20dad8;
+    display: inline-block;
+    width: auto;
+
+    font-size: 18px;
+    padding: 18px 26px;
+    color: #b6b6bf;
+}
+
+.right {
+    background-color: #fff;
+    display:flex;
+    width: 8%;
+
+    font-size: 18px;
+    padding: 18px 26px;
+    color: #fff;
+}
+
+.right a {
+    text-decoration: none;
+}
+
+.right:hover {
+    font-weight: bolder;
+}
+
+.left {
+    background-color: #fff;
+    
+    width: 11%;
+    font-size: 18px;
+    padding: 18px 17px;
+    color: #000;
+    text-align: justify;
+    border-radius: 6px;
+   
+
+
+}
+
+.left a {
+    text-decoration:none;
+}
+
+.left:hover {
+    font-weight: bolder;
+}
+
+
+.navbar-item-show{
+    box-shadow: 0 2px 8px;
+    border-radius: 12px;
+    padding:2rem;
+    margin:1rem 0;
+    display:block;
+}
+
+.navbar-item-show2{
+    margin: 0.5rem 0;
+    padding:0.5rem;
+}
+.table{
+    border: 2px solid #000;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border-collapse: collapse;
+  text-align:left;
+  background-color: rgb(232, 244, 159);
+  
+}
+.table-th {
+    border-bottom: 1px solid black;
+    text-align: left;
+  }
+    
+.table-td {
+    text-align: left;
+
+  }
+  .header{
+    border-collapse: collapse;
+    border:3px solid;
+    border-radius: 0.75rem;
+    text-align:l;
+    margin: 5px;
+    align-items:initial;
+    font-family:monospace;
+    font-size: larger;
+    
+    
+  }

@@ -1,0 +1,43 @@
+.new-add {
+    background-color: #6B9FED;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.25);
+    font-family:monospace;
+    color: #fff;
+    
+}
+
+.new-add button{
+    font: inherit;
+
+    padding: 1rem 2rem;
+    border: 1px solid  #4b4b4b;
+    
+    background-color:#800000;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+    font-family:monospace;
+}
+
+.new-add button:hover,
+.new-add button:active{
+    background-color: #863545;
+    border-color: #863545;
+}
+
+.new-add button.alternative{
+    color: #220131;
+    border-color:transparent;
+    background-color: transparent;
+}
+
+.new-add button.alternative:hover,
+.new-addbutton.alternative:active{
+    background-color: #ddb3f8;
+}

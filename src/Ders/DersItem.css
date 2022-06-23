@@ -1,0 +1,77 @@
+.item {
+    display:list-item;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border-radius: 6px;
+    background-color: #800000;
+    width: 50rem;
+    max-width: 95%;
+    font-size: 1rem;
+    
+    color: #fff;
+    border: solid rgba(#a892ee)2px;
+    font-family:monospace;
+    
+  }
+  
+  .item__description {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-end;
+    flex-flow: column-reverse;
+    justify-content: flex-start;
+    flex: 1;
+  }
+  
+  .item h2 {
+    color: #3a3a3a;
+    font-size: 1rem;
+    flex: 1;
+    margin: 0 1rem;
+    color: white;
+  }
+  
+  .item__view{
+    
+    font-weight:lighter;
+    color: white;
+    background-color: #4b4b4b;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 6px;
+    width: 50rem;
+    max-width: 95%;
+    font-size:1rem;
+  }
+  .new-add {
+    background-color: #4b4b4b;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: auto;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align:left;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.25);
+}
+  
+  @media (min-width: 580px) {
+    .item__description {
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      flex: 1;
+    }
+  
+    .item__description tr {
+      font-size: 1.25rem;
+    }
+  
+    .item__price {
+      font-size: 1.25rem;
+      padding: 0.5rem 1.5rem;
+    }
+  }

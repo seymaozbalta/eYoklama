@@ -1,0 +1,12 @@
+.ders-list{
+    list-style:none;
+    padding: 5;
+    margin: 5;
+    font-family:monospace;
+    font-weight: lighter;
+}
+.ders-list__fallback{
+    color:white;
+    text-align:center;
+    font-family:monospace;
+}
